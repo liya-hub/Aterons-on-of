@@ -1,4 +1,4 @@
-name: Auto Start Aternos
+name: Auto Start Aternos 
 
 on:
   schedule:
