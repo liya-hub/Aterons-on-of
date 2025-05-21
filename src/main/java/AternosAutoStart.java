@@ -15,8 +15,8 @@ public class AternosAutoStart {
 
         try {
             driver.get("https://aternos.org/go/");
-            driver.findElement(By.name("user")).sendKeys(System.getenv("ATERNOS_USER"));
-            driver.findElement(By.name("password")).sendKeys(System.getenv("ATERNOS_PASS"));
+            driver.findElement(By.name("NIMESHKA123")).sendKeys(System.getenv("ATERNOS_USER"));
+            driver.findElement(By.name("Nimesh@123")).sendKeys(System.getenv("ATERNOS_PASS"));
             driver.findElement(By.cssSelector("button[type='submit']")).click();
 
             Thread.sleep(5000);
